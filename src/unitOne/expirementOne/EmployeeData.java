@@ -1,4 +1,4 @@
-package expirementOne;
+package unitOne.expirementOne;
 
 public class EmployeeData {
     int eid;
@@ -6,8 +6,8 @@ public class EmployeeData {
     long phno;
 
     EmployeeData(int eid, String name, long phno) {
-        this.eid=eid;
-        this.name=name;
-        this.phno=phno;
+        this.eid = eid;
+        this.name = name;
+        this.phno = phno;
     }
 }
