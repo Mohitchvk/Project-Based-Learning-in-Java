@@ -47,8 +47,8 @@ public class RecurringDeposit extends Account {
             else interestRate = 8.75;
         }
 
-        double finalAmount = amount * interestRate / 100;
-        System.out.println("The Interest you get is: " + finalAmount);
+
+        calc();
 
     }
 }

@@ -50,8 +50,7 @@ public class FixedDeposit extends Account {
             else interestRate=8.00;
         }
 
-        double finalAmount = amount*interestRate/100;
-        System.out.println("The Interest you get is: "+finalAmount);
+        calc();
 
     }
 }

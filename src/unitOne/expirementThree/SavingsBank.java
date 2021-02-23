@@ -18,8 +18,7 @@ public class SavingsBank extends Account {
         if (nationality) interestRate = 4.00;
         else interestRate = 6.00;
 
-        double finalAmount = amount * interestRate / 100;
-        System.out.println("The Interest you get is: " + finalAmount);
+        calc();
 
     }
 }
