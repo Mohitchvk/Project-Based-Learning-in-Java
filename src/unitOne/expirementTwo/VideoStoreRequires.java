@@ -51,7 +51,7 @@ public class VideoStoreRequires {
             flag = true;
             if (!rentCheckAvailability(vdatum.availability)) continue;
             System.out.println("The Book is Available");
-        }
+        }   
         if (!flag) System.out.println("The Video with Given title Not found ");
     }
 

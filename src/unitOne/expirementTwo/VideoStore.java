@@ -12,6 +12,14 @@ public class VideoStore {
         boolean flag = false;
         boolean flagTitle = true;
 
+
+        System.out.println("To Add the Video select Option_______________________:1 ");
+        System.out.println("To Rent the Video select Option______________________:2 ");
+        System.out.println("To Return the book select Option_____________________:3 ");
+        System.out.println("To Check Rating for the Video select Option__________:4 ");
+        System.out.println("To Check availability for the Video select Option____:5 ");
+        System.out.println("To Change Video Title select Option__________________:6 ");
+        System.out.println("To Exit form the Store select Option_________________:7 ");
         try {
             do {
                 if (flagTitle) {
@@ -19,14 +27,9 @@ public class VideoStore {
                     title = sc.nextLine();
                     flagTitle = false;
                 }
+                System.out.println();
                 System.out.println("************* Please Select an Option ****************");
-                System.out.println("To Add the Video select Option_______________________:1 ");
-                System.out.println("To Rent the Video select Option______________________:2 ");
-                System.out.println("To Return the book select Option_____________________:3 ");
-                System.out.println("To Check Rating for the Video select Option__________:4 ");
-                System.out.println("To Check availability for the Video select Option____:5 ");
-                System.out.println("To Change Video Title select Option__________________:6 ");
-                System.out.println("To Exit form the Store select Option_________________:7 ");
+
 
                 int option = Integer.parseInt(sc.nextLine());
                 System.out.flush();
