@@ -7,7 +7,7 @@ public class EmployeeArray {
 
         try {
             Scanner sc = new Scanner(System.in);
-            System.out.println("Enter Number of Employees");
+//            System.out.println("Enter Number of Employees");
             int n = Integer.parseInt(sc.nextLine());
             EmployeeData[] eArr;
             eArr = new EmployeeData[4];
